@@ -1,0 +1,19 @@
+.header{
+    max-height: 10rem;
+    background: #267491;
+    padding: 1.5rem 0.5rem;
+}
+#logo{
+    max-width: 6rem;
+}
+
+ion-icon {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.btn{
+    color: white;
+    background: #082D3A;
+}
