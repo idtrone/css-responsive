@@ -1,6 +1,11 @@
 body{
     background: #BFD2D9;
 }
+
+.p-t-1{
+    padding-top: 1rem;
+}
+
 .header{
     background: #003851;
 }
@@ -13,9 +18,17 @@ body{
     padding: 1rem 1.5rem;
 }
 
+.text-area-container{
+    width: 100%;
+}
+
+ion-icon[name="person"]{
+    font-size: 4rem;
+    padding: 0 1rem;
+}
+
 a > ion-icon {
     font-size: 1.5rem;
-    margin-top: 5px;
     padding: 0;
 }
 
@@ -32,6 +45,11 @@ a > ion-icon {
 .portrait{
     max-width: 100%;
     margin-top: 1rem;
+}
+
+.comment{
+    display: inline-flex;
+    padding: 1rem;
 }
 
 .buscar{
