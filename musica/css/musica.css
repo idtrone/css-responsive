@@ -1,13 +1,19 @@
-.header{
-    max-height: 10rem;
-    background: #267491;
-    padding: 1.5rem 0.5rem;
+body{
+    background: #BFD2D9;
 }
+.header{
+    background: #003851;
+}
+
 #logo{
     max-width: 6rem;
 }
 
-ion-icon {
+.logo-social{
+    padding: 1rem 1.5rem;
+}
+
+a > ion-icon {
     font-size: 1.5rem;
     margin-top: 5px;
     padding: 0;
@@ -15,5 +21,20 @@ ion-icon {
 
 .btn{
     color: white;
-    background: #082D3A;
+    /*background: #002535;*/
+}
+
+.navigator{
+    padding: 1rem 0;
+    background: #22646E;
+}
+
+.portrait{
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.buscar{
+    padding-top: 1rem;
+    background: #3B89AC;
 }

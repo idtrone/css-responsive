@@ -15,12 +15,107 @@
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src='js/bootstrap.min.js' type="application/javascript"></script>
     <div class="header">
-        <img src="img/logo.png" alt="" id="logo">
-        <a class="btn" href="#" role="button"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a class="btn" href="#" role="button"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a class="btn" href="#" role="button"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a class="btn" href="#" role="button"><ion-icon name="logo-youtube"></ion-icon></a>
-        <a class="btn" href="#" role="button"><ion-icon name="logo-pinterest"></ion-icon></a>
+        <div class="row">
+            <div class="col-lg-12 logo-social">
+                <img src="img/logo.png" alt="" id="logo">
+                <a class="btn" href="#" role="button"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a class="btn" href="#" role="button"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a class="btn" href="#" role="button"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a class="btn" href="#" role="button"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a class="btn" href="#" role="button"><ion-icon name="logo-pinterest"></ion-icon></a>
+            </div>
+        </div>
+        <div class="row navigator">
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Inicio</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Artistas</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Grupos</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Top 50</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Letras</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <a class="btn" href="#" role="button">Acordes</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12">
+                        <h1>El Grupo legendario Queen</h1>
+                        <p>Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún se considera activa.4​</p>
+                        <p>El grupo gozó de un gran éxito en el Reino Unido con álbumes como Sheer Heart Attack (1974) y A Night at the Opera (1975). Este último llamó la atención internacionalmente, en especial por el sencillo "Bohemian Rhapsody", y colocó a Queen en un primer plano de la escena musical. Tuvieron una significativa repercusión en Estados Unidos a finales de los años 1970, ya con un numeroso repertorio de éxitos.5​</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="img/queen.jpg" class="portrait" alt="">
+                    </div>
+                    <div class="col-lg-12">
+                        <ion-icon class="" name="person"></ion-icon>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Comentario..." required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="img/koolandthegang.jpg" class="portrait" alt="">
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <h1>Kool and the Gang</h1>
+                        <p>Los miembros principales del grupo a través de los años han sido Robert 'Kool' Bell en el bajo y Ronald Bell en el saxo tenor; George Brown en la batería; Robert Mickens en la trompeta; Dennis Thomas en el saxo alto; Claydes Charles Smith en la guitarra, Clifford Adams en el trombón y Rick Westfield en los teclados.</p>
+                        <p>El padre de Robert y Ronald trabajó con Thelonious Monk y así mismo los hermanos eran amigos de Leon Thomas. En 1964 Robert formó la banda instrumental "The Jazziacs" con cinco compañeros de colegio y después cambiaron su nombre a Kool & the Gang cuando lanzaron un álbum del mismo nombre en 1969.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <ion-icon class="" name="person"></ion-icon>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Comentario..." required></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 buscar ">
+                <div class="row text-center">
+                    <div class="col-sm-12 input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Busca tu artista aqui...">
+                    </div>
+                    <a class="btn btn-outline-light" href="#" role="button">Buscar</a>
+                    <div class="col-sm-12">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Guns N' Roses</a>
+                            <a href="#" class="list-group-item list-group-item-action">Queen</a>
+                            <a href="#" class="list-group-item list-group-item-action">The Rolling Stones</a>
+                            <a href="#" class="list-group-item list-group-item-action">AC/DC</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Bon Jovi</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Led Zepellin</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Pink Floyd</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Aerosmith</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">U2</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Metallica</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Nirvana</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Scorpions</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Ramones</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Deep Purple</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">the Cure</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Kiss</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
