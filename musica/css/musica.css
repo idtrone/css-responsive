@@ -6,6 +6,10 @@ body{
     padding-top: 1rem;
 }
 
+a[class="btn"]{
+    padding-top: 1rem;
+}
+
 .header{
     background: #003851;
 }

@@ -1,0 +1,38 @@
+.slogan{
+    padding: 1rem;
+    background: #E76666;
+    color: white;
+}
+
+.titulo{
+    padding: 0 1rem;
+}
+
+.navigation-left{
+    background: #E5A478;
+    padding: 1rem;
+    /*color: white;*/
+}
+
+.blog-right{
+    background: #F0D582;
+}
+
+.img-fav{
+    padding: 0.25rem;
+}
+
+.content-information{
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.content-image{
+    max-width: 25rem;
+    padding: 1rem 0;
+}
+
+.content-blog{
+    text-align: justify;
+    padding: 1rem 0;
+}
