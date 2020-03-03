@@ -1,0 +1,39 @@
+.blue-darken-travel{
+    background: #172740;
+}
+
+.blue-accent-travel{
+    background: #6E9FBF;
+}
+
+.cream-travel{
+    background: #F1ECD8;
+}
+
+.orange-travel{
+    background: #E99276;
+}
+
+#travel-logo{
+    padding: 1.25rem 0.5rem;
+    max-width: 9rem;
+}
+
+.navigator{
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.navigator > .col > a{
+    padding: 1.5rem 2rem;
+    float: right;
+    color: white;
+}
+
+.navigator > .col > a:hover{
+    background: #0c3e8c;
+}
+
+.slogan{
+    font-size: 3rem;
+}
