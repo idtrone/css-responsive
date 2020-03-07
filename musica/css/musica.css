@@ -6,8 +6,8 @@ body{
     padding-top: 1rem;
 }
 
-a[class="btn"]{
-    padding-top: 1rem;
+.btn{
+    margin: 0.5rem 0;
 }
 
 .header{
@@ -20,6 +20,10 @@ a[class="btn"]{
 
 .logo-social{
     padding: 1rem 1.5rem;
+}
+
+.logo-social >a:hover{
+    color: #BFD2D9;
 }
 
 .text-area-container{
