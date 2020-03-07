@@ -1,17 +1,19 @@
-.blue-darken-travel{
-    background: #172740;
+body{
+    color: #616161;
 }
 
-.blue-accent-travel{
-    background: #6E9FBF;
+.inside-background{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
 }
 
-.cream-travel{
-    background: #F1ECD8;
+.background-height{
+    height: 190px;
 }
 
-.orange-travel{
-    background: #E99276;
+i{
+    padding-right: 0.4rem;
 }
 
 #travel-logo{
@@ -24,16 +26,54 @@
     padding-bottom: 1rem;
 }
 
+.navigator > col{
+    text-align: right;
+}
+
+
 .navigator > .col > a{
-    padding: 1.5rem 2rem;
-    float: right;
+    float: left;
     color: white;
 }
 
-.navigator > .col > a:hover{
-    background: #0c3e8c;
+.navigator > .col > a{
+    padding: 1.3rem 1.6rem;
 }
 
-.slogan{
+.navigator > .col > a:hover{
+    background: #3f51b5;
+}
+
+
+.mdi-max{
     font-size: 3rem;
+}
+
+.redes-sociales> a > i{
+    color: whitesmoke;
+    padding: 0;
+}
+
+.redes-sociales > a:hover{
+    color: #d4e157;
+}
+
+img.responsive-img{
+    margin: 0.25rem 0;
+}
+
+.p-t-1{
+    padding-top: 1rem !important;
+}
+
+.p-a-1{
+    padding: 1.5rem !important;
+}
+
+.p-x-1{
+    padding: 0 0.75rem !important;
+}
+
+.badge > i{
+    padding-right: 0.10rem;
 }
